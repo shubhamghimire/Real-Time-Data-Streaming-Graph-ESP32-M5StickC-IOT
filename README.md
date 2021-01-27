@@ -43,11 +43,6 @@ Connect BME280 sensor and M5 Stick C using breadboard and jumper wires. I am joi
 ## Step-3: Coding M5StickC Program Using Arduino IDE
 Now write the code in Arduino IDE for M5 Stick C to access temperature, pressure and humidity data from the sensor and displaying the data in M5StickC LCD and to the Serial Monitor. The data output of the serial monitor must be separated by commas so that we can get access to these individual data values in processing. The code can be found in the file 'BME280_Sensor_Data_Output_for_Graph.ino'. 
 
-### Data Values Display on M5StickC LCD
-![Screenshot](Screenshots/M5StickC_LCD_Display.png)
-
-### Output Data in Arduino Serial Monitor
-![Screenshot](Screenshots/arduino_serial_monitor.png)
 
 ## Step-4: Accessing Sensor Data in Processing From Arduino Serial Monitor
 The M5StickC program outputs data into the Arduino Serial Monitor. Now, it's time to access data into processing from Arduino Serial Monitor. After accessing data, we will produce a moving graph by using these data. The processing program can be found in 'Real_Time_Streaming_Data_Graph.pde' file.
