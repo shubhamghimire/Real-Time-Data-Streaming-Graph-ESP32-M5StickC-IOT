@@ -40,8 +40,8 @@ Connect BME280 sensor and M5 Stick C using breadboard and jumper wires. I am joi
 ![Screenshot](Screenshots/M5StickC_I2C_BME280.png)
 
 
-## Step-3: Coding M5StickC Program Using Arduino IDE\
-Now write the code in Arduino IDE for M5 Stick C to access temperature, pressure and humidity data from the sensor and displaying the data in M5StickC LCD and to the Serial Monitor. The data output of the serial monitor must be separated by commas so that we can get access to these individual data values in processing. The code can be found in the file 'BME280_Sensor_Data_Output_for_Graph.ino'. 
+## Step-3: Coding M5StickC Program Using Arduino IDE
+Now write the code in Arduino IDE for M5 Stick C to access temperature, pressure and humidity data from the sensor and displaying the data in M5StickC LCD and to the Serial Monitor. The data output of the serial monitor must be separated by commas so that we can get access to these individual data values in processing. The code can be found in the file 'Real_Time_Streaming_Data_Graph.pde'. 
 
 ### Data Values Display on M5StickC LCD
 ![Screenshot](Screenshots/M5StickC_LCD_Display.png)
